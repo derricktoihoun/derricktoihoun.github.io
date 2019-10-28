@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+h1 span {
+    text-transform: uppercase;
+    color: green;
+}
