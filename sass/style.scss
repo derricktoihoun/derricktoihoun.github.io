@@ -18,20 +18,20 @@ body {
 
 /* #region HEADER */
 
-header {
+header{
     color: white;
     background-color: black;
-}
+    
+    h1 {
+        text-align: center;
+        color: gray;
+        text-transform: capitalize;
 
-header h1 {
-    text-align: center;
-    color: gray;
-    text-transform: capitalize;
-}
-
-header h1 span {
-    text-transform: uppercase;
-    color: green;
+        span {
+            text-transform: uppercase;
+            color: green;
+        }
+    }
 }
 
 /* #endregion */
@@ -47,18 +47,19 @@ section, aside {
 
 /* #region Section Mes Projets */
 
-.s-projets {}
+.s-projets {
 
-.projets {
-    display: flex;
-    flex-direction: column;
-}
-
-.projets .s-projets .projets div {
-    border: 1px solid gray;
-    margin: 0.5em;
-    padding: 0.5em;
-    border-radius: 0.25em;
+    .projets {
+        display: flex;
+        flex-direction: column;
+        
+        .s-projets .projets div {
+            border: 1px solid gray;
+            margin: 0.5em;
+            padding: 0.5em;
+            border-radius: 0.25em;
+        }
+    }
 }
 
 /* #endregion */
@@ -66,12 +67,10 @@ section, aside {
 /* #endregion*/
 
 /* #region FOOTER */
-
 footer {
     color: white;
     background-color: black;
 }
-
 /* #endregion */
 
 /* #endregion */
